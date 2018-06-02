@@ -1,0 +1,15 @@
+{
+	"name": "webchemistry/control-assets",
+	"type": "library",
+	"require": {
+		"latte/latte": "^3.0 || ^2.4"
+	},
+	"require-dev": {
+		"nette/application": "^3.0 || ^2.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"WebChemistry\\ControlAssets\\": ["src/"]
+		}
+	}
+}
